@@ -1,0 +1,39 @@
+@import 'settings';
+@import 'foundation';
+
+@include foundation-everything;
+
+/***********************************
+************************************
+***** CUSTOM STYLES START HERE *****
+************************************
+***********************************/
+
+body{
+	background: #eee;
+}
+
+.posts{
+	width:100%;
+	list-style: none;
+	padding:0;
+	font-size:0;
+	text-align:center;
+	li{
+		font-size:16px;
+		display:inline-block;
+		width:30%;
+		border-radius: 5px;
+		overflow:hidden;
+		border:1px solid #e2e2e2;
+		background:#fff;
+		margin:5px 1%;
+	}
+	img{
+		width:100%;
+		height:auto;
+	}
+	h3, p {
+		padding:10px;
+	}
+}
